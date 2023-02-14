@@ -178,6 +178,11 @@ export const H1 = styled.h1`
             font-size: 44px;
             line-height: 65px;
         }
+
+        @media (max-width: 450px) {
+            font-size: 24px;
+            line-height: 45px;
+        }
     }
 `
 
@@ -188,6 +193,10 @@ export const StringDiv = styled.div`
     @media (max-width: 1300px) {
         img {
             width: 120px;
+        }
+
+        @media (max-width: 450px) {
+            width: 100px;
         }
     }
 `

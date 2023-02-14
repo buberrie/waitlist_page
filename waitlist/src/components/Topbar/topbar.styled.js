@@ -5,6 +5,10 @@ export const Wrapper = styled.div`
     justify-content: space-between;
     padding: 30px 50px;
     color: white;
+
+    @media (max-width: 650px) {
+        padding: 30px 20px;
+    }
 `
 
 //Logo design 
